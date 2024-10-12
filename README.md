@@ -1,6 +1,6 @@
 # Tetris
 
-This is a simple Tetris game written in Python using the Pygame library. Created as part of [happycoders.io](https://happycoders.io/) tutorial. Resources have been collected from the youtube channel [Programming With Nick](https://youtu.be/nF_crEtmpBo?si=Cois7QYjjq9l48_e).
+This is a simple Tetris game written in Python using the Pygame library. Resources have been collected from the youtube channel [Programming With Nick](https://youtu.be/nF_crEtmpBo?si=Cois7QYjjq9l48_e).
 Thanks to **Nick** for the tutorial.
 
 ## Installation
