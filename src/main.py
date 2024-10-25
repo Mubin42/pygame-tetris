@@ -2,6 +2,7 @@ import sys
 import pygame
 from colors import Colors
 from grid import Grid
+from blocks import *
 
 
 pygame.init()
@@ -9,9 +10,8 @@ pygame.init()
 
 # test codes
 game_grid = Grid()
-game_grid.grid[0][0] = 1
-game_grid.grid[10][5] = 2
-game_grid.print_grid()
+
+block = LBlock()
 
 screen_width, screen_height, fps = 300, 600, 60
 screen = pygame.display.set_mode((screen_width, screen_height))
@@ -29,5 +29,6 @@ while True:
 
     screen.fill(Colors.dark_blue)
     game_grid.draw(screen)
+    block.draw(screen)
     pygame.display.update()
     clock.tick(fps)
